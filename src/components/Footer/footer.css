@@ -1,0 +1,21 @@
+footer {
+    width: 100%;
+    height: 250px;
+    background: #8b79b9;
+    padding: 10px;
+}
+.btn-block {
+    margin: 10px 10px 20px 10px;
+}
+button.btn.callme {
+    color: #44413c;
+    font-size: 16px;
+    padding: 10px 5px;
+    background: #f8f2fe;
+    border: 1px solid #44413c;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button.btn.callme:hover {
+    background: #e3cbfa;
+}

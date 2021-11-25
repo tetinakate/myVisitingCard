@@ -1,0 +1,31 @@
+header {
+    background: #8b79b9;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.intro-outer {
+    background: #FFFF;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+.intro-inner {
+    border: 1px solid #44413c;
+    padding: 10px;
+}
+.intro.my-name {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #44413c;
+    letter-spacing: 5px;
+    margin: 0 0 15px 0;
+}
+.intro.my-prof {
+    font-size: 20px;
+    color: #787370;
+    letter-spacing: 5px;
+}

@@ -1,0 +1,58 @@
+.info {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+.about-me {
+    margin: 20px 0px;
+}
+.info-inner.photo img {
+    border-radius: 180px;
+    height: 180px;
+}
+.info-title {
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+    color: #44413c;
+}
+.info-inner {
+    width: 32%;
+    text-align: center;
+}
+.info-inner.about .info-text {
+    color: #44413c;
+    padding: 5px;
+    text-align: left;
+}
+.info-inner.contact {
+    text-align: left;
+}
+.info-inner.contact a {
+    color: #44413c;
+    text-decoration: none;
+}
+.info-inner.contact a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.info-inner.contact ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i.icon.home::before{
+    content: url(../assert/Icon-geo.jpg);
+}
+i.icon.phone::before{
+    content: url(../assert/Icon-phone.jpg);
+}
+i.icon.email::before{
+    content: url(../assert/Icon-email.jpg);
+}
